@@ -45,8 +45,8 @@ jobs:
 
       - name: Configure npm authentication
         run: |
-          yarn config set 'npmScopes["kyu-asia"].npmRegistryServer' "https://npm.pkg.github.com"
-          yarn config set 'npmScopes["kyu-asia"].npmAuthToken' ${{ secrets.GH_PACKAGES_TOKEN }}
+          yarn config set npmRegistryServer "https://npm.pkg.github.com"
+          yarn config set "npmRegistries[\"https://npm.pkg.github.com\"].npmAuthToken" ${{ secrets.GH_PACKAGES_TOKEN }}
 
       - name: Fail if unsafe lifecycle scripts exist
         run: |
@@ -63,7 +63,7 @@ jobs:
           echo "No unsafe lifecycle scripts detected."
 
       - name: Publish workspaces to npm
-        run: yarn workspaces foreach --all --no-private -v npm publish --access restricted --tolerate-republish
+        run: yarn workspaces foreach --all --no-private -v npm publish --access restricted
 
       - name: Extract version
         id: version
