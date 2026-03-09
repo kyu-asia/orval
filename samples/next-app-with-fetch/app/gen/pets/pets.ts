@@ -116,7 +116,7 @@ export const getListPetsUrl = (params?: ListPetsParams) => {
 export const listPets = async (
   params?: ListPetsParams,
   options?: RequestInit,
-): Promise<listPetsResponse> => {
+) => {
   return customFetch<listPetsResponse>(getListPetsUrl(params), {
     ...options,
     method: 'GET',
@@ -154,7 +154,7 @@ export const getCreatePetsUrl = () => {
 export const createPets = async (
   createPetsBodyItem: CreatePetsBodyItem[],
   options?: RequestInit,
-): Promise<createPetsResponse> => {
+) => {
   return customFetch<createPetsResponse>(getCreatePetsUrl(), {
     ...options,
     method: 'POST',
@@ -194,7 +194,7 @@ export const getUpdatePetsUrl = () => {
 export const updatePets = async (
   pet: NonReadonly<Pet>,
   options?: RequestInit,
-): Promise<updatePetsResponse> => {
+) => {
   return customFetch<updatePetsResponse>(getUpdatePetsUrl(), {
     ...options,
     method: 'PUT',
@@ -231,10 +231,7 @@ export const getShowPetByIdUrl = (petId: string) => {
   return `http://localhost:3000/pets/${petId}`;
 };
 
-export const showPetById = async (
-  petId: string,
-  options?: RequestInit,
-): Promise<showPetByIdResponse> => {
+export const showPetById = async (petId: string, options?: RequestInit) => {
   return customFetch<showPetByIdResponse>(getShowPetByIdUrl(petId), {
     ...options,
     method: 'GET',

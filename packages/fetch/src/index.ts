@@ -440,7 +440,7 @@ ${override.fetch.forceSuccessResponse && hasSuccess ? '' : `export type ${respon
     ? customFetchResponseImplementation
     : fetchResponseImplementation;
 
-  let fetchImplementation = `export const ${operationName} = async (${args}): ${returnType} => {
+  let fetchImplementation = `export const ${operationName} = async (${args}) => {
   ${bodyForm ? `  ${bodyForm}` : ''}
   ${fetchImplementationBody}}
   `;
