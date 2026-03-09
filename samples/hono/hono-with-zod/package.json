@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260131.0",
-    "orval": "workspace:*",
+    "@kyu-asia/orval": "workspace:*",
     "prettier": "catalog:",
     "vitest": "catalog:",
     "wrangler": "^4.59.2"

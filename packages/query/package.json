@@ -1,5 +1,5 @@
 {
-  "name": "@orval/query",
+  "name": "@kyu-asia/query",
   "version": "8.5.3",
   "license": "MIT",
   "type": "module",
@@ -26,8 +26,8 @@
     "nuke": "rimraf .turbo dist node_modules"
   },
   "dependencies": {
-    "@orval/core": "workspace:*",
-    "@orval/fetch": "workspace:*",
+    "@kyu-asia/core": "workspace:*",
+    "@kyu-asia/fetch": "workspace:*",
     "remeda": "^2.33.6"
   },
   "devDependencies": {

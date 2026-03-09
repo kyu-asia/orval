@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  packages: write
 
 jobs:
   publish:
@@ -43,8 +44,8 @@ jobs:
 
       - name: Configure npm authentication
         run: |
-          yarn config set npmRegistryServer "https://registry.npmjs.org"
-          yarn config set npmAuthToken ${{ secrets.NPM_TOKEN }}
+          yarn config set npmRegistryServer "https://npm.pkg.github.com"
+          yarn config set npmAuthToken ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fail if unsafe lifecycle scripts exist
         run: |
@@ -61,7 +62,7 @@ jobs:
           echo "No unsafe lifecycle scripts detected."
 
       - name: Publish workspaces to npm
-        run: yarn workspaces foreach --all --no-private -v npm publish --access public --tolerate-republish
+        run: yarn workspaces foreach --all --no-private -v npm publish --access restricted --tolerate-republish
 
       - name: Extract version
         id: version

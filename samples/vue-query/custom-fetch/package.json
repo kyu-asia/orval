@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@faker-js/faker": "catalog:tooling",
+    "@kyu-asia/orval": "workspace:*",
     "@vitejs/plugin-vue": "^6.0.1",
-    "orval": "workspace:*",
     "prettier": "catalog:",
     "typescript": "catalog:",
     "vite": "catalog:",

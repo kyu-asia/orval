@@ -9,7 +9,7 @@
     "test:snapshots:update": "yarn test:snapshots --update"
   },
   "devDependencies": {
-    "orval": "workspace:*",
+    "@kyu-asia/orval": "workspace:*",
     "prettier": "catalog:",
     "vitest": "catalog:"
   }

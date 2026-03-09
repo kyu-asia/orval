@@ -16,9 +16,9 @@
   "author": "Victor Bury",
   "license": "ISC",
   "devDependencies": {
+    "@kyu-asia/orval": "workspace:*",
     "msw": "catalog:tooling",
     "npm-run-all2": "catalog:",
-    "orval": "workspace:*",
     "prettier": "catalog:",
     "vitest": "catalog:"
   },

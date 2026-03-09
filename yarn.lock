@@ -4232,8 +4232,8 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:^4.20260131.0"
     "@hono/zod-validator": "catalog:hono"
+    "@kyu-asia/orval": "workspace:*"
     hono: "catalog:hono"
-    orval: "workspace:*"
     prettier: "catalog:"
     vitest: "catalog:"
     wrangler: "npm:^4.59.2"
@@ -5434,6 +5434,231 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kyu-asia/angular@workspace:*, @kyu-asia/angular@workspace:packages/angular":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/angular@workspace:packages/angular"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    eslint: "catalog:"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/axios@workspace:*, @kyu-asia/axios@workspace:packages/axios":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/axios@workspace:packages/axios"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    eslint: "catalog:"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/core@workspace:*, @kyu-asia/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/core@workspace:packages/core"
+  dependencies:
+    "@faker-js/faker": "catalog:tooling"
+    "@scalar/openapi-types": "catalog:"
+    "@types/debug": "npm:^4.1.12"
+    "@types/esutils": "npm:^2.0.2"
+    "@types/fs-extra": "npm:^11.0.4"
+    acorn: "npm:^8.15.0"
+    compare-versions: "npm:^6.1.1"
+    debug: "npm:^4.4.3"
+    esbuild: "npm:^0.27.3"
+    eslint: "catalog:"
+    esutils: "npm:2.0.3"
+    fs-extra: "npm:^11.3.2"
+    globby: "npm:16.1.0"
+    remeda: "npm:^2.33.6"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typedoc: "npm:^0.28.17"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  peerDependencies:
+    "@faker-js/faker": ">=10"
+  peerDependenciesMeta:
+    "@faker-js/faker":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/fetch@workspace:*, @kyu-asia/fetch@workspace:packages/fetch":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/fetch@workspace:packages/fetch"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    "@scalar/openapi-types": "catalog:"
+    eslint: "catalog:"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/hono@workspace:*, @kyu-asia/hono@workspace:packages/hono":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/hono@workspace:packages/hono"
+  dependencies:
+    "@hono/zod-validator": "catalog:hono"
+    "@kyu-asia/core": "workspace:*"
+    "@kyu-asia/zod": "workspace:*"
+    "@types/fs-extra": "npm:^11.0.4"
+    eslint: "catalog:"
+    fs-extra: "npm:^11.3.2"
+    remeda: "npm:^2.33.6"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/mcp@workspace:*, @kyu-asia/mcp@workspace:packages/mcp":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/mcp@workspace:packages/mcp"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    "@kyu-asia/fetch": "workspace:*"
+    "@kyu-asia/zod": "workspace:*"
+    eslint: "catalog:"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/mock@workspace:*, @kyu-asia/mock@workspace:packages/mock":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/mock@workspace:packages/mock"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    eslint: "catalog:"
+    remeda: "npm:^2.33.6"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/orval@workspace:*, @kyu-asia/orval@workspace:packages/orval":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/orval@workspace:packages/orval"
+  dependencies:
+    "@commander-js/extra-typings": "npm:^14.0.0"
+    "@kyu-asia/angular": "workspace:*"
+    "@kyu-asia/axios": "workspace:*"
+    "@kyu-asia/core": "workspace:*"
+    "@kyu-asia/fetch": "workspace:*"
+    "@kyu-asia/hono": "workspace:*"
+    "@kyu-asia/mcp": "workspace:*"
+    "@kyu-asia/mock": "workspace:*"
+    "@kyu-asia/query": "workspace:*"
+    "@kyu-asia/solid-start": "workspace:*"
+    "@kyu-asia/swr": "workspace:*"
+    "@kyu-asia/zod": "workspace:*"
+    "@scalar/json-magic": "npm:^0.11.5"
+    "@scalar/openapi-parser": "npm:^0.24.13"
+    "@scalar/openapi-types": "catalog:"
+    "@types/fs-extra": "npm:^11.0.4"
+    "@types/js-yaml": "npm:^4.0.9"
+    chokidar: "npm:^5.0.0"
+    commander: "npm:^14.0.2"
+    enquirer: "npm:^2.4.1"
+    eslint: "catalog:"
+    execa: "npm:^9.6.1"
+    find-up: "npm:8.0.0"
+    fs-extra: "npm:^11.3.2"
+    jiti: "npm:^2.6.1"
+    js-yaml: "npm:4.1.1"
+    remeda: "npm:^2.33.6"
+    rimraf: "catalog:"
+    string-argv: "npm:^0.3.2"
+    tsconfck: "npm:^3.1.6"
+    tsdown: "catalog:"
+    typedoc: "npm:^0.28.17"
+    typedoc-plugin-coverage: "npm:^4.0.2"
+    typedoc-plugin-markdown: "npm:^4.10.0"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  peerDependencies:
+    prettier: ">=3.0.0"
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  bin:
+    orval: ./dist/bin/orval.mjs
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/query@workspace:*, @kyu-asia/query@workspace:packages/query":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/query@workspace:packages/query"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    "@kyu-asia/fetch": "workspace:*"
+    eslint: "catalog:"
+    remeda: "npm:^2.33.6"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/solid-start@workspace:*, @kyu-asia/solid-start@workspace:packages/solid-start":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/solid-start@workspace:packages/solid-start"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    "@scalar/openapi-types": "catalog:"
+    eslint: "catalog:"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/swr@workspace:*, @kyu-asia/swr@workspace:packages/swr":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/swr@workspace:packages/swr"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    "@kyu-asia/fetch": "workspace:*"
+    eslint: "catalog:"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
+"@kyu-asia/zod@workspace:*, @kyu-asia/zod@workspace:packages/zod":
+  version: 0.0.0-use.local
+  resolution: "@kyu-asia/zod@workspace:packages/zod"
+  dependencies:
+    "@kyu-asia/core": "workspace:*"
+    eslint: "catalog:"
+    remeda: "npm:^2.33.6"
+    rimraf: "catalog:"
+    tsdown: "catalog:"
+    typescript: "catalog:"
+    vitest: "catalog:"
+  languageName: unknown
+  linkType: soft
+
 "@leichtgewicht/ip-codec@npm:^2.0.1":
   version: 2.0.5
   resolution: "@leichtgewicht/ip-codec@npm:2.0.5"
@@ -6148,181 +6373,6 @@ __metadata:
   checksum: 10c0/61d3f99718dd86bb393fee2d7a785f961dcaf12f2055f0c693b27f4d0cd5f7a03d498a6d9289773b117590d794a43cd129366fd8e99222e4832f67b1653d54cf
   languageName: node
   linkType: hard
-
-"@orval/angular@workspace:*, @orval/angular@workspace:packages/angular":
-  version: 0.0.0-use.local
-  resolution: "@orval/angular@workspace:packages/angular"
-  dependencies:
-    "@orval/core": "workspace:*"
-    eslint: "catalog:"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/axios@workspace:*, @orval/axios@workspace:packages/axios":
-  version: 0.0.0-use.local
-  resolution: "@orval/axios@workspace:packages/axios"
-  dependencies:
-    "@orval/core": "workspace:*"
-    eslint: "catalog:"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/core@workspace:*, @orval/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@orval/core@workspace:packages/core"
-  dependencies:
-    "@faker-js/faker": "catalog:tooling"
-    "@scalar/openapi-types": "catalog:"
-    "@types/debug": "npm:^4.1.12"
-    "@types/esutils": "npm:^2.0.2"
-    "@types/fs-extra": "npm:^11.0.4"
-    acorn: "npm:^8.15.0"
-    compare-versions: "npm:^6.1.1"
-    debug: "npm:^4.4.3"
-    esbuild: "npm:^0.27.3"
-    eslint: "catalog:"
-    esutils: "npm:2.0.3"
-    fs-extra: "npm:^11.3.2"
-    globby: "npm:16.1.0"
-    remeda: "npm:^2.33.6"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typedoc: "npm:^0.28.17"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  peerDependencies:
-    "@faker-js/faker": ">=10"
-  peerDependenciesMeta:
-    "@faker-js/faker":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@orval/fetch@workspace:*, @orval/fetch@workspace:packages/fetch":
-  version: 0.0.0-use.local
-  resolution: "@orval/fetch@workspace:packages/fetch"
-  dependencies:
-    "@orval/core": "workspace:*"
-    "@scalar/openapi-types": "catalog:"
-    eslint: "catalog:"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/hono@workspace:*, @orval/hono@workspace:packages/hono":
-  version: 0.0.0-use.local
-  resolution: "@orval/hono@workspace:packages/hono"
-  dependencies:
-    "@hono/zod-validator": "catalog:hono"
-    "@orval/core": "workspace:*"
-    "@orval/zod": "workspace:*"
-    "@types/fs-extra": "npm:^11.0.4"
-    eslint: "catalog:"
-    fs-extra: "npm:^11.3.2"
-    remeda: "npm:^2.33.6"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/mcp@workspace:*, @orval/mcp@workspace:packages/mcp":
-  version: 0.0.0-use.local
-  resolution: "@orval/mcp@workspace:packages/mcp"
-  dependencies:
-    "@orval/core": "workspace:*"
-    "@orval/fetch": "workspace:*"
-    "@orval/zod": "workspace:*"
-    eslint: "catalog:"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/mock@workspace:*, @orval/mock@workspace:packages/mock":
-  version: 0.0.0-use.local
-  resolution: "@orval/mock@workspace:packages/mock"
-  dependencies:
-    "@orval/core": "workspace:*"
-    eslint: "catalog:"
-    remeda: "npm:^2.33.6"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/query@workspace:*, @orval/query@workspace:packages/query":
-  version: 0.0.0-use.local
-  resolution: "@orval/query@workspace:packages/query"
-  dependencies:
-    "@orval/core": "workspace:*"
-    "@orval/fetch": "workspace:*"
-    eslint: "catalog:"
-    remeda: "npm:^2.33.6"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/solid-start@workspace:*, @orval/solid-start@workspace:packages/solid-start":
-  version: 0.0.0-use.local
-  resolution: "@orval/solid-start@workspace:packages/solid-start"
-  dependencies:
-    "@orval/core": "workspace:*"
-    "@scalar/openapi-types": "catalog:"
-    eslint: "catalog:"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/swr@workspace:*, @orval/swr@workspace:packages/swr":
-  version: 0.0.0-use.local
-  resolution: "@orval/swr@workspace:packages/swr"
-  dependencies:
-    "@orval/core": "workspace:*"
-    "@orval/fetch": "workspace:*"
-    eslint: "catalog:"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"@orval/zod@workspace:*, @orval/zod@workspace:packages/zod":
-  version: 0.0.0-use.local
-  resolution: "@orval/zod@workspace:packages/zod"
-  dependencies:
-    "@orval/core": "workspace:*"
-    eslint: "catalog:"
-    remeda: "npm:^2.33.6"
-    rimraf: "catalog:"
-    tsdown: "catalog:"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
 
 "@oxc-project/types@npm:=0.106.0":
   version: 0.106.0
@@ -10472,10 +10522,10 @@ __metadata:
     "@angular/platform-browser": "catalog:angular"
     "@angular/router": "catalog:angular"
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     angular-eslint: "npm:21.3.0"
     eslint: "catalog:"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     rimraf: "catalog:"
     rxjs: "catalog:angular"
@@ -10527,10 +10577,10 @@ __metadata:
     "@angular/platform-browser": "catalog:angular"
     "@angular/router": "catalog:angular"
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/angular-query-experimental": "npm:^5.90.16"
     "@testing-library/angular": "npm:19.0.0"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     rxjs: "catalog:angular"
     tslib: "catalog:"
@@ -11315,10 +11365,10 @@ __metadata:
   resolution: "basic@workspace:samples/basic"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     axios: "catalog:axios"
     msw: "catalog:tooling"
     npm-run-all2: "catalog:"
-    orval: "workspace:*"
     prettier: "catalog:"
     vitest: "catalog:"
   dependenciesMeta:
@@ -16689,7 +16739,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hono-with-fetch-client@workspace:samples/hono/hono-with-fetch-client"
   dependencies:
-    orval: "workspace:*"
+    "@kyu-asia/orval": "workspace:*"
     prettier: "catalog:"
     vitest: "catalog:"
   languageName: unknown
@@ -16701,8 +16751,8 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:^4.20260131.0"
     "@hono/zod-validator": "catalog:hono"
+    "@kyu-asia/orval": "workspace:*"
     hono: "catalog:hono"
-    orval: "workspace:*"
     prettier: "catalog:"
     vitest: "catalog:"
     wrangler: "npm:^4.59.2"
@@ -19661,9 +19711,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mcp-petstore@workspace:samples/mcp/petstore"
   dependencies:
+    "@kyu-asia/orval": "workspace:*"
     "@modelcontextprotocol/sdk": "catalog:mcp"
     "@types/node": "catalog:"
-    orval: "workspace:*"
     prettier: "catalog:"
     ts-node: "npm:^10.9.2"
     typescript: "catalog:"
@@ -20460,6 +20510,7 @@ __metadata:
   resolution: "next-app-with-fetch@workspace:samples/next-app-with-fetch"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@types/node": "catalog:"
     "@types/react": "catalog:react"
     "@types/react-dom": "npm:^18.3.7"
@@ -20467,7 +20518,6 @@ __metadata:
     eslint-config-next: "npm:16.1.6"
     msw: "catalog:tooling"
     next: "npm:14.2.35"
-    orval: "workspace:*"
     postcss: "npm:8.5.6"
     prettier: "catalog:"
     react: "catalog:react"
@@ -21376,6 +21426,7 @@ __metadata:
     "@angular/core": "catalog:angular"
     "@faker-js/faker": "catalog:tooling"
     "@hono/zod-validator": "catalog:hono"
+    "@kyu-asia/orval": "workspace:*"
     "@modelcontextprotocol/sdk": "catalog:mcp"
     "@tanstack/react-query": "catalog:react"
     "@tanstack/svelte-query": "catalog:svelte"
@@ -21385,7 +21436,6 @@ __metadata:
     hono: "catalog:hono"
     msw: "catalog:tooling"
     npm-run-all2: "catalog:"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     rimraf: "catalog:"
@@ -21422,56 +21472,6 @@ __metadata:
     typescript: "catalog:"
     typescript-eslint: "catalog:"
     vitest: "catalog:"
-  languageName: unknown
-  linkType: soft
-
-"orval@workspace:*, orval@workspace:packages/orval":
-  version: 0.0.0-use.local
-  resolution: "orval@workspace:packages/orval"
-  dependencies:
-    "@commander-js/extra-typings": "npm:^14.0.0"
-    "@orval/angular": "workspace:*"
-    "@orval/axios": "workspace:*"
-    "@orval/core": "workspace:*"
-    "@orval/fetch": "workspace:*"
-    "@orval/hono": "workspace:*"
-    "@orval/mcp": "workspace:*"
-    "@orval/mock": "workspace:*"
-    "@orval/query": "workspace:*"
-    "@orval/solid-start": "workspace:*"
-    "@orval/swr": "workspace:*"
-    "@orval/zod": "workspace:*"
-    "@scalar/json-magic": "npm:^0.11.5"
-    "@scalar/openapi-parser": "npm:^0.24.13"
-    "@scalar/openapi-types": "catalog:"
-    "@types/fs-extra": "npm:^11.0.4"
-    "@types/js-yaml": "npm:^4.0.9"
-    chokidar: "npm:^5.0.0"
-    commander: "npm:^14.0.2"
-    enquirer: "npm:^2.4.1"
-    eslint: "catalog:"
-    execa: "npm:^9.6.1"
-    find-up: "npm:8.0.0"
-    fs-extra: "npm:^11.3.2"
-    jiti: "npm:^2.6.1"
-    js-yaml: "npm:4.1.1"
-    remeda: "npm:^2.33.6"
-    rimraf: "catalog:"
-    string-argv: "npm:^0.3.2"
-    tsconfck: "npm:^3.1.6"
-    tsdown: "catalog:"
-    typedoc: "npm:^0.28.17"
-    typedoc-plugin-coverage: "npm:^4.0.2"
-    typedoc-plugin-markdown: "npm:^4.10.0"
-    typescript: "catalog:"
-    vitest: "catalog:"
-  peerDependencies:
-    prettier: ">=3.0.0"
-  peerDependenciesMeta:
-    prettier:
-      optional: true
-  bin:
-    orval: ./dist/bin/orval.mjs
   languageName: unknown
   linkType: soft
 
@@ -23246,12 +23246,12 @@ __metadata:
   resolution: "react-app@workspace:samples/react-app"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@types/node": "catalog:"
     "@types/react": "catalog:react"
     "@types/react-dom": "npm:^18.3.7"
     axios: "catalog:axios"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-dom: "npm:^18.3.1"
@@ -23342,6 +23342,7 @@ __metadata:
   resolution: "react-query-basic@workspace:samples/react-query/basic"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/react-query": "catalog:react"
     "@types/node": "catalog:"
     "@types/react": "catalog:react"
@@ -23349,7 +23350,6 @@ __metadata:
     ajv: "npm:^8.18.0"
     axios: "catalog:axios"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-dom: "npm:^18.3.1"
@@ -23367,6 +23367,7 @@ __metadata:
   resolution: "react-query-custom-fetch@workspace:samples/react-query/custom-fetch"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/react-query": "catalog:react"
     "@types/react": "catalog:react"
     "@types/react-dom": "npm:^18.3.7"
@@ -23376,7 +23377,6 @@ __metadata:
     eslint: "catalog:"
     eslint-plugin-react-hooks: "npm:^7.0.1"
     eslint-plugin-react-refresh: "npm:^0.5.2"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-dom: "npm:^18.3.1"
@@ -23391,8 +23391,8 @@ __metadata:
   resolution: "react-query-form-data-mutator@workspace:samples/react-query/form-data-mutator"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     axios: "catalog:axios"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-query: "npm:^3.39.3"
@@ -23405,8 +23405,8 @@ __metadata:
   resolution: "react-query-form-data@workspace:samples/react-query/form-data"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     axios: "catalog:axios"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-query: "npm:^3.39.3"
@@ -23419,8 +23419,8 @@ __metadata:
   resolution: "react-query-form-url-encoded-mutator@workspace:samples/react-query/form-url-encoded-mutator"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     axios: "catalog:axios"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-query: "npm:^3.39.3"
@@ -23433,8 +23433,8 @@ __metadata:
   resolution: "react-query-form-url-encoded@workspace:samples/react-query/form-url-encoded"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     axios: "catalog:axios"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-query: "npm:^3.39.3"
@@ -23447,8 +23447,8 @@ __metadata:
   resolution: "react-query-hook-mutator-axios@workspace:samples/react-query/hook-mutator-axios"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     axios: "catalog:axios"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-query: "npm:^3.39.3"
@@ -23461,7 +23461,7 @@ __metadata:
   resolution: "react-query-hook-mutator-fetch@workspace:samples/react-query/hook-mutator-fetch"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
-    orval: "workspace:*"
+    "@kyu-asia/orval": "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-query: "npm:^3.39.3"
@@ -25395,10 +25395,10 @@ __metadata:
   resolution: "solid-query-basic@workspace:samples/solid-query/basic"
   dependencies:
     "@faker-js/faker": "npm:^10.2.0"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/solid-query": "npm:^5.90.21"
     axios: "catalog:axios"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     solid-js: "npm:^1.9.11"
     typescript: "npm:~5.9.3"
     vite: "npm:^7.2.2"
@@ -25414,9 +25414,9 @@ __metadata:
   resolution: "solid-query-custom-fetch@workspace:samples/solid-query/custom-fetch"
   dependencies:
     "@faker-js/faker": "npm:^10.2.0"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/solid-query": "npm:^5.90.21"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     solid-js: "npm:^1.9.11"
     typescript: "npm:~5.9.3"
     vite: "npm:^7.2.2"
@@ -25442,13 +25442,13 @@ __metadata:
   resolution: "solid-start-basic@workspace:samples/solid-start/basic"
   dependencies:
     "@faker-js/faker": "npm:^10.2.0"
+    "@kyu-asia/orval": "workspace:*"
     "@solidjs/meta": "npm:^0.29.4"
     "@solidjs/router": "npm:^0.15.4"
     "@solidjs/start": "npm:^1.0.17"
     "@tanstack/solid-query": "npm:^5.90.21"
     axios: "catalog:axios"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     solid-js: "npm:^1.9.11"
     typescript: "npm:~5.9.3"
     vinxi: "npm:^0.5.9"
@@ -26288,6 +26288,7 @@ __metadata:
   dependencies:
     "@eslint/compat": "npm:^2.0.2"
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@sveltejs/adapter-auto": "npm:^2.1.1"
     "@sveltejs/kit": "npm:^1.30.4"
     "@tanstack/svelte-query": "catalog:svelte"
@@ -26297,7 +26298,6 @@ __metadata:
     eslint-plugin-svelte: "npm:^3.15.0"
     globals: "catalog:"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     svelte: "catalog:svelte"
     svelte-check: "catalog:svelte"
@@ -26317,10 +26317,10 @@ __metadata:
   resolution: "svelte-query-custom-fetch@workspace:samples/svelte-query/custom-fetch"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@sveltejs/vite-plugin-svelte": "npm:^5.1.1"
     "@tanstack/svelte-query": "catalog:svelte"
     "@tsconfig/svelte": "npm:^5.0.6"
-    orval: "workspace:*"
     prettier: "catalog:"
     svelte: "catalog:svelte"
     svelte-check: "catalog:svelte"
@@ -26336,11 +26336,11 @@ __metadata:
   resolution: "svelte-query-v6-custom-fetch@workspace:samples/svelte-query/v6-custom-fetch"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@sveltejs/vite-plugin-svelte": "npm:^5.1.1"
     "@sveltestack/svelte-query": "npm:^1.6.0"
     "@tanstack/svelte-query": "npm:^6.0.17"
     "@tsconfig/svelte": "npm:^5.0.6"
-    orval: "workspace:*"
     prettier: "catalog:"
     svelte: "catalog:svelte"
     svelte-check: "catalog:svelte"
@@ -26427,12 +26427,12 @@ __metadata:
   resolution: "swr-basic@workspace:samples/react-app-with-swr/basic"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@types/node": "catalog:"
     "@types/react": "catalog:react"
     "@types/react-dom": "npm:^18.3.7"
     axios: "catalog:axios"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-dom: "npm:^18.3.1"
@@ -26451,6 +26451,7 @@ __metadata:
   resolution: "swr-with-fetch-client@workspace:samples/react-app-with-swr/fetch-client"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@types/react": "catalog:react"
     "@types/react-dom": "npm:^18.3.7"
     "@typescript-eslint/eslint-plugin": "npm:^8.56.1"
@@ -26459,7 +26460,6 @@ __metadata:
     eslint: "catalog:"
     eslint-plugin-react-hooks: "npm:^7.0.1"
     eslint-plugin-react-refresh: "npm:^0.5.2"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-dom: "npm:^18.3.1"
@@ -26475,6 +26475,7 @@ __metadata:
   resolution: "swr-with-zod@workspace:samples/swr-with-zod"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@types/react": "catalog:react"
     "@types/react-dom": "npm:^18.3.7"
     "@typescript-eslint/eslint-plugin": "npm:^8.56.1"
@@ -26483,7 +26484,6 @@ __metadata:
     eslint: "catalog:"
     eslint-plugin-react-hooks: "npm:^7.0.1"
     eslint-plugin-react-refresh: "npm:^0.5.2"
-    orval: "workspace:*"
     prettier: "catalog:"
     react: "catalog:react"
     react-dom: "npm:^18.3.1"
@@ -28710,6 +28710,7 @@ __metadata:
   resolution: "vue-query-basic@workspace:samples/vue-query/vue-query-basic"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/vue-query": "catalog:vue"
     "@testing-library/vue": "npm:^8.1.0"
     "@vitejs/plugin-vue": "npm:^6.0.1"
@@ -28717,7 +28718,6 @@ __metadata:
     axios: "catalog:axios"
     jsdom: "npm:^27.1.0"
     msw: "catalog:tooling"
-    orval: "workspace:*"
     prettier: "catalog:"
     tsd: "npm:^0.33.0"
     typescript: "catalog:"
@@ -28736,9 +28736,9 @@ __metadata:
   resolution: "vue-query-custom-fetch@workspace:samples/vue-query/custom-fetch"
   dependencies:
     "@faker-js/faker": "catalog:tooling"
+    "@kyu-asia/orval": "workspace:*"
     "@tanstack/vue-query": "catalog:vue"
     "@vitejs/plugin-vue": "npm:^6.0.1"
-    orval: "workspace:*"
     prettier: "catalog:"
     typescript: "catalog:"
     vite: "catalog:"

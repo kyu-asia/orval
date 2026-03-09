@@ -1,5 +1,5 @@
 {
-  "name": "@orval/solid-start",
+  "name": "@kyu-asia/solid-start",
   "version": "8.5.3",
   "license": "MIT",
   "type": "module",
@@ -26,7 +26,7 @@
     "nuke": "rimraf .turbo dist node_modules"
   },
   "dependencies": {
-    "@orval/core": "workspace:*",
+    "@kyu-asia/core": "workspace:*",
     "@scalar/openapi-types": "catalog:"
   },
   "devDependencies": {

@@ -15,9 +15,9 @@
   },
   "devDependencies": {
     "@faker-js/faker": "catalog:tooling",
+    "@kyu-asia/orval": "workspace:*",
     "@sveltejs/vite-plugin-svelte": "^5.1.1",
     "@tsconfig/svelte": "^5.0.6",
-    "orval": "workspace:*",
     "prettier": "catalog:",
     "svelte": "catalog:svelte",
     "svelte-check": "catalog:svelte",

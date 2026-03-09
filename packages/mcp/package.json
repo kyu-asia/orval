@@ -1,5 +1,5 @@
 {
-  "name": "@orval/mcp",
+  "name": "@kyu-asia/mcp",
   "version": "8.5.3",
   "license": "MIT",
   "type": "module",
@@ -26,9 +26,9 @@
     "nuke": "rimraf .turbo dist node_modules"
   },
   "dependencies": {
-    "@orval/core": "workspace:*",
-    "@orval/fetch": "workspace:*",
-    "@orval/zod": "workspace:*"
+    "@kyu-asia/core": "workspace:*",
+    "@kyu-asia/fetch": "workspace:*",
+    "@kyu-asia/zod": "workspace:*"
   },
   "devDependencies": {
     "eslint": "catalog:",

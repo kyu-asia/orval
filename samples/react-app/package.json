@@ -39,8 +39,8 @@
     "typescript": "catalog:"
   },
   "devDependencies": {
+    "@kyu-asia/orval": "workspace:*",
     "msw": "catalog:tooling",
-    "orval": "workspace:*",
     "prettier": "catalog:",
     "vitest": "catalog:"
   },

@@ -16,7 +16,7 @@
     "react-query": "^3.39.3"
   },
   "devDependencies": {
-    "orval": "workspace:*",
+    "@kyu-asia/orval": "workspace:*",
     "prettier": "catalog:",
     "vitest": "catalog:"
   }
