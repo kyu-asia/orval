@@ -11,7 +11,7 @@ import {
   OutputMode,
   setVerbose,
   startMessage,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import pkg from '../../package.json';
 import { generateSpec } from '../generate-spec';

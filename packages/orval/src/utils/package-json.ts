@@ -8,7 +8,7 @@ import {
   logVerbose,
   type PackageJson,
   resolveInstalledVersions,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { findUp, findUpMultiple } from 'find-up';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';

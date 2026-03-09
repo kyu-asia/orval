@@ -11,13 +11,13 @@ import {
   type OpenApiSchemaObject,
   pascal,
   type ZodCoerceType,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import {
   dereference,
   generateZodValidationSchemaDefinition,
   isZodVersionV4,
   parseZodValidationSchemaDefinition,
-} from '@orval/zod';
+} from '@kyu-asia/zod';
 import fs from 'fs-extra';
 
 interface ZodSchemaFileEntry {

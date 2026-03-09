@@ -1,4 +1,4 @@
-import { type PackageJson } from '@orval/core';
+import { type PackageJson } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import {

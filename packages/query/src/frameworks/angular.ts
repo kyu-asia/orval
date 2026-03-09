@@ -7,7 +7,7 @@ import {
   OutputClient,
   type OutputHttpClient,
   toObjectString,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import {
   generateAngularHttpRequestFunction,

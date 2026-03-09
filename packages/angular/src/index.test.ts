@@ -2,8 +2,8 @@ import type {
   GeneratorVerbOptions,
   GetterBody,
   GetterResponse,
-} from '@orval/core';
-import { FormDataArrayHandling, Verbs } from '@orval/core';
+} from '@kyu-asia/core';
+import { FormDataArrayHandling, Verbs } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { generateAngular } from './index';

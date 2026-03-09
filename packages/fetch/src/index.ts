@@ -18,7 +18,7 @@ import {
   resolveRef,
   stringify,
   toObjectString,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { isDereferenced } from '@scalar/openapi-types/helpers';
 
 const WILDCARD_STATUS_CODE_REGEX = /^[1-5]XX$/i;

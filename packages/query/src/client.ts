@@ -17,11 +17,11 @@ import {
   OutputHttpClient,
   pascal,
   toObjectString,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import {
   generateFetchHeader,
   generateRequestFunction as generateFetchRequestFunction,
-} from '@orval/fetch';
+} from '@kyu-asia/fetch';
 
 import {
   getHasSignal,

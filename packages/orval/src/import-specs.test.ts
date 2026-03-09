@@ -1,4 +1,4 @@
-import type { OpenApiDocument } from '@orval/core';
+import type { OpenApiDocument } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { dereferenceExternalRef, importSpecs } from './import-specs';

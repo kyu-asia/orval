@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-vi.mock('@orval/core', () => ({
+vi.mock('@kyu-asia/core', () => ({
   isString: (value: unknown) => typeof value === 'string',
   logError: vi.fn(),
   setVerbose: vi.fn(),
@@ -25,7 +25,7 @@ vi.mock('./utils/watcher', () => ({
   startWatcher: vi.fn(),
 }));
 
-import { setVerbose } from '@orval/core';
+import { setVerbose } from '@kyu-asia/core';
 
 import { generate } from './generate';
 

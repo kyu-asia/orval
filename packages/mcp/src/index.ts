@@ -19,9 +19,9 @@ import {
   type OpenApiInfoObject,
   pascal,
   upath,
-} from '@orval/core';
-import { generateClient, generateFetchHeader } from '@orval/fetch';
-import { generateZod } from '@orval/zod';
+} from '@kyu-asia/core';
+import { generateClient, generateFetchHeader } from '@kyu-asia/fetch';
+import { generateZod } from '@kyu-asia/zod';
 
 const getHeader = (
   option: false | ((info: OpenApiInfoObject) => string | string[]),

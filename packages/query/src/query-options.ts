@@ -5,7 +5,7 @@ import {
   isObject,
   pascal,
   stringify,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { omitBy } from 'remeda';
 
 import type { FrameworkAdapter } from './framework-adapter';

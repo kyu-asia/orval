@@ -2,8 +2,8 @@ import type {
   ContextSpec,
   GeneratorOptions,
   OpenApiSchemaObject,
-} from '@orval/core';
-import { PropertySortOrder } from '@orval/core';
+} from '@kyu-asia/core';
+import { PropertySortOrder } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { createTestContextSpec } from '../../core/src/test-utils/context';

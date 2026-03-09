@@ -1,4 +1,4 @@
-import { isNullish, isObject, isString, type Tsconfig } from '@orval/core';
+import { isNullish, isObject, isString, type Tsconfig } from '@kyu-asia/core';
 import { findUp } from 'find-up';
 import fs from 'fs-extra';
 import { parse } from 'tsconfck';

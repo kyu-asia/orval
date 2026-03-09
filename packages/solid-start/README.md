@@ -1,4 +1,4 @@
-# @orval/solid-start
+# @kyu-asia/solid-start
 
 SolidStart client for Orval - generates type-safe API client code using SolidStart primitives.
 
@@ -15,11 +15,11 @@ SolidStart client for Orval - generates type-safe API client code using SolidSta
 ## Installation
 
 ```bash
-npm install @orval/solid-start
+npm install @kyu-asia/solid-start
 # or
-yarn add @orval/solid-start
+yarn add @kyu-asia/solid-start
 # or
-pnpm add @orval/solid-start
+pnpm add @kyu-asia/solid-start
 ```
 
 ## Usage
@@ -112,8 +112,8 @@ function CreatePet() {
 
 ## Comparison with solid-query
 
-- **@orval/solid-start**: Uses native SolidStart primitives (`query`, `action`) for server-side data fetching
-- **@orval/solid-query**: Uses TanStack Solid Query (`createQuery`, `createMutation`) for client-side data management
+- **@kyu-asia/solid-start**: Uses native SolidStart primitives (`query`, `action`) for server-side data fetching
+- **@kyu-asia/solid-query**: Uses TanStack Solid Query (`createQuery`, `createMutation`) for client-side data management
 
 Choose `solid-start` when you want to leverage SolidStart's built-in server functions and caching.
 Choose `solid-query` when you need advanced client-side query management features like automatic refetching, optimistic updates, etc.

@@ -8,7 +8,7 @@ import {
   type OpenApiSchemaObject,
   pascal,
   PropertySortOrder,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import type { MockDefinition, MockSchema, MockSchemaObject } from '../../types';
 import { DEFAULT_OBJECT_KEY_MOCK } from '../constants';

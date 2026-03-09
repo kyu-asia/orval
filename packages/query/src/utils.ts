@@ -13,7 +13,7 @@ import {
   type OutputClientFunc,
   type QueryOptions,
   TEMPLATE_TAG_REGEX,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 export const normalizeQueryOptions = (
   queryOptions: QueryOptions = {},

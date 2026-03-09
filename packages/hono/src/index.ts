@@ -24,8 +24,8 @@ import {
   pascal,
   sanitize,
   upath,
-} from '@orval/core';
-import { generateZod } from '@orval/zod';
+} from '@kyu-asia/core';
+import { generateZod } from '@kyu-asia/zod';
 import fs from 'fs-extra';
 
 import { getRoute } from './route';

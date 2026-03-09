@@ -2,8 +2,8 @@ import type {
   GeneratorOptions,
   GeneratorVerbOptions,
   NormalizedOverrideOutput,
-} from '@orval/core';
-import { OutputMockType } from '@orval/core';
+} from '@kyu-asia/core';
+import { OutputMockType } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { generateMSW } from './index';

@@ -21,7 +21,7 @@ import {
   type SwrOptions,
   toObjectString,
   Verbs,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import {
   AXIOS_DEPENDENCIES,

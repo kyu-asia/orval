@@ -4,7 +4,7 @@ import {
   logError,
   type OptionsExport,
   setVerbose,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { generateSpec } from './generate-spec';
 import { findConfigFile, loadConfigFile } from './utils/config';

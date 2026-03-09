@@ -1,4 +1,4 @@
-import { isObject } from '@orval/core';
+import { isObject } from '@kyu-asia/core';
 
 export const stripNill = (object: unknown) =>
   isObject(object)

@@ -202,7 +202,7 @@ describe('generateAxiosHeader', () => {
 describe('generateAxiosTitle', () => {
   it('should generate title with get prefix', () => {
     expect(generateAxiosTitle('pets')).toBe('getPets');
-    // pascal() from @orval/core uses specific case conversion
+    // pascal() from @kyu-asia/core uses specific case conversion
     expect(generateAxiosTitle('swagger-petstore')).toBe('getSwaggerpetstore');
   });
 });

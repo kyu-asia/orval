@@ -1,4 +1,4 @@
-import { camel, sanitize } from '@orval/core';
+import { camel, sanitize } from '@kyu-asia/core';
 
 const hasParam = (path: string): boolean => /[^{]*{[\w*_-]*}.*/.test(path);
 

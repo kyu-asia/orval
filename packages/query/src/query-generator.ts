@@ -18,7 +18,7 @@ import {
   pascal,
   toObjectString,
   Verbs,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { getHookOptions, getQueryErrorType, getQueryOptions } from './client';
 import type { FrameworkAdapter } from './framework-adapter';

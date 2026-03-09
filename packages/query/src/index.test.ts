@@ -2,7 +2,7 @@ import type {
   GeneratorOptions,
   GeneratorVerbOptions,
   NormalizedOverrideOutput,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { builder } from './index';

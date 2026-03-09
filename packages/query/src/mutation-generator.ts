@@ -10,7 +10,7 @@ import {
   isString,
   type OutputHttpClient,
   pascal,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import {
   getHooksOptionImplementation,

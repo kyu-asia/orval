@@ -8,7 +8,7 @@ import {
   OutputHttpClient,
   OutputMode,
   PropertySortOrder,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import type { MockSchemaObject } from '../../types';

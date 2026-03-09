@@ -6,7 +6,7 @@ import {
   type MockOptions,
   type OpenApiSchemaObject,
   pascal,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { prop } from 'remeda';
 
 import type { MockDefinition, MockSchema, MockSchemaObject } from '../../types';

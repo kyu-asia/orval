@@ -1,6 +1,6 @@
 # Developing the Query Package
 
-Developer guidelines for working on `@orval/query` — the TanStack Query generator that targets five frameworks (React, Vue, Angular, Svelte, Solid) from a single codebase via the `FrameworkAdapter` strategy pattern.
+Developer guidelines for working on `@kyu-asia/query` — the TanStack Query generator that targets five frameworks (React, Vue, Angular, Svelte, Solid) from a single codebase via the `FrameworkAdapter` strategy pattern.
 
 ## How to Change Framework Behavior
 
@@ -43,8 +43,8 @@ Edit `withDefaults()` for the common case. Then override the method in the diver
 ### One adapter file changed
 
 ```bash
-yarn workspace @orval/query test                                        # Unit tests
-yarn workspace @orval/core build && yarn workspace @orval/query build   # Rebuild
+yarn workspace @kyu-asia/query test                                        # Unit tests
+yarn workspace @kyu-asia/core build && yarn workspace @kyu-asia/query build   # Rebuild
 yarn update-samples                                                      # Regenerate ALL samples
 # Inspect that framework's sample output
 yarn test:cli                                                            # Verify all generated code compiles

@@ -1,4 +1,4 @@
-import type { ContextSpec } from '@orval/core';
+import type { ContextSpec } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { createTestContextSpec } from '../../../../core/src/test-utils/context';

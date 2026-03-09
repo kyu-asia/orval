@@ -11,7 +11,7 @@ import {
   resolveRef,
   type ResReqTypesValue,
   stringify,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { getMockScalar } from '../faker/getters';
 

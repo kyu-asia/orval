@@ -1,5 +1,5 @@
-import angular from '@orval/angular';
-import axios from '@orval/axios';
+import angular from '@kyu-asia/angular';
+import axios from '@kyu-asia/axios';
 import {
   asyncReduce,
   type ClientFileBuilder,
@@ -21,15 +21,15 @@ import {
   OutputClient,
   type OutputClientFunc,
   pascal,
-} from '@orval/core';
-import fetchClient from '@orval/fetch';
-import hono from '@orval/hono';
-import mcp from '@orval/mcp';
-import * as mock from '@orval/mock';
-import query from '@orval/query';
-import solidStart from '@orval/solid-start';
-import swr from '@orval/swr';
-import zod from '@orval/zod';
+} from '@kyu-asia/core';
+import fetchClient from '@kyu-asia/fetch';
+import hono from '@kyu-asia/hono';
+import mcp from '@kyu-asia/mcp';
+import * as mock from '@kyu-asia/mock';
+import query from '@kyu-asia/query';
+import solidStart from '@kyu-asia/solid-start';
+import swr from '@kyu-asia/swr';
+import zod from '@kyu-asia/zod';
 
 const DEFAULT_CLIENT = OutputClient.AXIOS;
 

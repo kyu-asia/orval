@@ -45,8 +45,8 @@ import {
   type QueryOptions,
   RefComponentSuffix,
   type SchemaOptions,
-} from '@orval/core';
-import { DEFAULT_MOCK_OPTIONS } from '@orval/mock';
+} from '@kyu-asia/core';
+import { DEFAULT_MOCK_OPTIONS } from '@kyu-asia/mock';
 
 import pkg from '../../package.json';
 import { loadPackageJson } from './package-json';

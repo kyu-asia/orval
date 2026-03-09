@@ -4,7 +4,7 @@ import {
   log,
   type NormalizedOptions,
   removeFilesAndEmptyFolders,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { importSpecs } from './import-specs';
 import { writeSpecs } from './write-specs';

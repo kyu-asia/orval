@@ -25,7 +25,7 @@ vi.mock('js-yaml', () => ({
   },
 }));
 
-vi.mock('@orval/core', () => ({
+vi.mock('@kyu-asia/core', () => ({
   dynamicImport: vi.fn(),
   isObject: (v: unknown) =>
     Object.prototype.toString.call(v) === '[object Object]',
@@ -44,7 +44,7 @@ import {
   log,
   logVerbose,
   resolveInstalledVersions,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { findUp, findUpMultiple } from 'find-up';
 import fs from 'fs-extra';
 import yaml from 'js-yaml';

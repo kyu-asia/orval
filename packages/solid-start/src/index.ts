@@ -21,7 +21,7 @@ import {
   sanitize,
   toObjectString,
   Verbs,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 const SOLID_START_DEPENDENCIES: GeneratorDependency[] = [
   {

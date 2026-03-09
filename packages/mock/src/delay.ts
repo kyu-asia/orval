@@ -4,7 +4,7 @@ import {
   isFunction,
   isNumber,
   type NormalizedOverrideOutput,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 export const getDelay = (
   override?: NormalizedOverrideOutput,

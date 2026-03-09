@@ -11,7 +11,7 @@ import {
   isObject,
   pascal,
   type ResReqTypesValue,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { getDelay } from '../delay';
 import { getRouteMSW, overrideVarName } from '../faker/getters';

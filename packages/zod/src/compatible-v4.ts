@@ -1,4 +1,4 @@
-import { compareVersions, type PackageJson } from '@orval/core';
+import { compareVersions, type PackageJson } from '@kyu-asia/core';
 
 const getZodPackageVersion = (packageJson: PackageJson) => {
   return (

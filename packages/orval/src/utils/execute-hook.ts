@@ -9,7 +9,7 @@ import {
   log,
   logError,
   type NormalizedHookCommand,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { execa } from 'execa';
 import { parseArgsStringToArgv } from 'string-argv';
 

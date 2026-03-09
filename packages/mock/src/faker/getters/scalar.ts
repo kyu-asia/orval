@@ -14,7 +14,7 @@ import {
   type MockOptions,
   type OpenApiSchemaObject,
   pascal,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import type { MockDefinition, MockSchemaObject } from '../../types';
 import { isFakerVersionV9 } from '../compatible-v9';

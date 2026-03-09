@@ -29,7 +29,7 @@ import {
   resolveRef,
   stringify,
   type ZodCoerceType,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { unique } from 'remeda';
 
 import {

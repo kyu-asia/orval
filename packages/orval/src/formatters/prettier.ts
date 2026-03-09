@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { styleText } from 'node:util';
 
-import { log } from '@orval/core';
+import { log } from '@kyu-asia/core';
 import { execa } from 'execa';
 
 /**

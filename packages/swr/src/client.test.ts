@@ -1,5 +1,5 @@
-import type { GetterProp } from '@orval/core';
-import { GetterPropType } from '@orval/core';
+import type { GetterProp } from '@kyu-asia/core';
+import { GetterPropType } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 describe('query parameter type extraction', () => {

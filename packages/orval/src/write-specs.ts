@@ -22,7 +22,7 @@ import {
   writeSplitMode,
   writeSplitTagsMode,
   writeTagsMode,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { execa, ExecaError } from 'execa';
 import fs from 'fs-extra';
 import { unique } from 'remeda';

@@ -5,7 +5,7 @@ import {
   isSchema,
   type MockOptions,
   pascal,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import type { MockDefinition, MockSchema, MockSchemaObject } from '../../types';
 import { resolveMockValue } from '../resolvers';

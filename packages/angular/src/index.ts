@@ -21,7 +21,7 @@ import {
   pascal,
   sanitize,
   toObjectString,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 const ANGULAR_DEPENDENCIES = [
   {

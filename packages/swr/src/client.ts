@@ -12,12 +12,12 @@ import {
   isSyntheticDefaultImportsAllow,
   OutputHttpClient,
   toObjectString,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import {
   fetchResponseTypeName,
   generateFetchHeader,
   generateRequestFunction as generateFetchRequestFunction,
-} from '@orval/fetch';
+} from '@kyu-asia/fetch';
 
 export const AXIOS_DEPENDENCIES: GeneratorDependency[] = [
   {

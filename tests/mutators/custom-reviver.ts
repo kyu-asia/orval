@@ -1,4 +1,4 @@
-import { isString } from '@orval/core';
+import { isString } from '@kyu-asia/core';
 
 const isoDateFormat =
   /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d*)?(?:[-+]\d{2}:?\d{2}|Z)?$/;

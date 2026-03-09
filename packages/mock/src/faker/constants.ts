@@ -1,4 +1,4 @@
-import type { OpenApiSchemaObject } from '@orval/core';
+import type { OpenApiSchemaObject } from '@kyu-asia/core';
 
 export const DEFAULT_FORMAT_MOCK: Record<
   Required<Extract<OpenApiSchemaObject, object>>['format'],

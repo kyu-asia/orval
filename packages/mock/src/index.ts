@@ -3,7 +3,7 @@ import type {
   GeneratorOptions,
   GeneratorVerbOptions,
   GlobalMockOptions,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { generateMSW, generateMSWImports } from './msw';
 

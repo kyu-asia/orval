@@ -6,7 +6,7 @@ import {
   mergeDeep,
   type NormalizedOutputOptions,
   type QueryOptions,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { getQueryHeader } from './client';
 import {

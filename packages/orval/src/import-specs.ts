@@ -4,7 +4,7 @@ import {
   type NormalizedOptions,
   type OpenApiDocument,
   type WriteSpecBuilder,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { bundle } from '@scalar/json-magic/bundle';
 import {
   fetchUrls,

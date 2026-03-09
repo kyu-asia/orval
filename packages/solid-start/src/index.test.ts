@@ -4,7 +4,7 @@ import type {
   GeneratorVerbOptions,
   OpenApiParameterObject,
   OpenApiReferenceObject,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import {
   EnumGeneration,
   FormDataArrayHandling,
@@ -14,7 +14,7 @@ import {
   OutputMode,
   PropertySortOrder,
   Verbs,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import { generateSolidStart } from './index';

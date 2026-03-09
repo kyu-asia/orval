@@ -4,8 +4,8 @@ import {
   OutputClient,
   OutputHttpClient,
   pascal,
-} from '@orval/core';
-import { generateRequestFunction as generateFetchRequestFunction } from '@orval/fetch';
+} from '@kyu-asia/core';
+import { generateRequestFunction as generateFetchRequestFunction } from '@kyu-asia/fetch';
 
 import { generateAxiosRequestFunction } from '../client';
 import type {

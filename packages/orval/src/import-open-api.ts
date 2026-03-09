@@ -11,7 +11,7 @@ import {
   type OpenApiDocument,
   type OverrideInput,
   type WriteSpecBuilder,
-} from '@orval/core';
+} from '@kyu-asia/core';
 import { validate } from '@scalar/openapi-parser';
 
 import { getApiBuilder } from './api';

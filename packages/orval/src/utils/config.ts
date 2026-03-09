@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { type Config, type ConfigExternal, isFunction } from '@orval/core';
+import { type Config, type ConfigExternal, isFunction } from '@kyu-asia/core';
 import { createJiti } from 'jiti';
 
 /**

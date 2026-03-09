@@ -1,4 +1,4 @@
-import { OutputHttpClient } from '@orval/core';
+import { OutputHttpClient } from '@kyu-asia/core';
 import { describe, expect, it } from 'vitest';
 
 import {

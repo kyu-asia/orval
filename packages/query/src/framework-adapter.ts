@@ -8,7 +8,7 @@ import type {
   GetterQueryParam,
   OutputClient,
   OutputHttpClient,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import type { QueryType } from './query-options';
 

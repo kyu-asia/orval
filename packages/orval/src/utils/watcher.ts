@@ -1,4 +1,4 @@
-import { isBoolean, log, logError } from '@orval/core';
+import { isBoolean, log, logError } from '@kyu-asia/core';
 
 /**
  * Start a file watcher and invoke an async callback on file changes.

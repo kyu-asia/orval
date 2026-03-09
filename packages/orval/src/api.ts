@@ -13,8 +13,8 @@ import {
   type NormalizedOutputOptions,
   type OpenApiPathItemObject,
   resolveRef,
-} from '@orval/core';
-import { generateMockImports } from '@orval/mock';
+} from '@kyu-asia/core';
+import { generateMockImports } from '@kyu-asia/mock';
 
 import {
   generateClientFooter,

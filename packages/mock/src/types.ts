@@ -2,7 +2,7 @@ import type {
   GeneratorImport,
   OpenApiReferenceObject,
   OpenApiSchemaObject,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 export interface MockDefinition {
   value: string;

@@ -4,7 +4,7 @@ import {
   type GeneratorDependency,
   OutputHttpClient,
   type PackageJson,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { ANGULAR_HTTP_DEPENDENCIES, AXIOS_DEPENDENCIES } from './client';
 

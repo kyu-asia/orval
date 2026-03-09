@@ -9,7 +9,7 @@ import {
   type OutputClientFunc,
   type PackageJson,
   toObjectString,
-} from '@orval/core';
+} from '@kyu-asia/core';
 
 import { getQueryArgumentsRequestType } from '../client';
 import {
