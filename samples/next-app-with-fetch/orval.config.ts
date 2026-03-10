@@ -1,4 +1,4 @@
-import { defineConfig } from 'orval';
+import { defineConfig } from '@kyu-asia/orval';
 
 export default defineConfig({
   petstore: {
@@ -8,7 +8,7 @@ export default defineConfig({
       schemas: 'app/gen/models',
       client: 'fetch',
       baseUrl: 'http://localhost:3000',
-      mock: true,
+      mock: false,
       prettier: true,
       override: {
         mutator: {

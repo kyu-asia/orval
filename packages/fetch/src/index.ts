@@ -308,7 +308,8 @@ ${override.fetch.forceSuccessResponse && hasSuccess ? '' : `export type ${respon
     })
     .join(',');
 
-  const args = `${toObjectString(props, 'implementation')} ${isRequestOptions ? `options?: RequestInit` : ''}`;
+  const args = toObjectString(props, 'implementation');
+  const optionsArg = isRequestOptions ? `options?: RequestInit` : '';
   const returnType =
     override.fetch.forceSuccessResponse && hasSuccess
       ? `Promise<${successName}>`
@@ -440,7 +441,7 @@ ${override.fetch.forceSuccessResponse && hasSuccess ? '' : `export type ${respon
     ? customFetchResponseImplementation
     : fetchResponseImplementation;
 
-  let fetchImplementation = `export const ${operationName} = async (${args}) => {
+  let fetchImplementation = `export const ${operationName} = (${optionsArg}) => async (${args}) => {
   ${bodyForm ? `  ${bodyForm}` : ''}
   ${fetchImplementationBody}}
   `;
